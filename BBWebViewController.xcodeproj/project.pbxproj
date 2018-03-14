@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F65EE4E12058F2F9007BF711 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F65EE4E02058F2F9007BF711 /* AppDelegate.m */; };
+		F65EE4E42058F2F9007BF711 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F65EE4E32058F2F9007BF711 /* ViewController.m */; };
+		F65EE4E72058F2F9007BF711 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65EE4E52058F2F9007BF711 /* Main.storyboard */; };
+		F65EE4E92058F2F9007BF711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F65EE4E82058F2F9007BF711 /* Assets.xcassets */; };
+		F65EE4EC2058F2F9007BF711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65EE4EA2058F2F9007BF711 /* LaunchScreen.storyboard */; };
+		F65EE4EF2058F2F9007BF711 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F65EE4EE2058F2F9007BF711 /* main.m */; };
+		F65EE4F92058F2F9007BF711 /* BBWebViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F65EE4F82058F2F9007BF711 /* BBWebViewControllerUITests.m */; };
+		F65EE50A2058F375007BF711 /* YGWebToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F65EE5072058F375007BF711 /* YGWebToolBar.m */; };
+		F65EE50B2058F375007BF711 /* YGWebView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F65EE5082058F375007BF711 /* YGWebView.bundle */; };
+		F65EE50C2058F375007BF711 /* BBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F65EE5092058F375007BF711 /* BBWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F65EE4F52058F2F9007BF711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F65EE4D42058F2F8007BF711 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F65EE4DB2058F2F8007BF711;
+			remoteInfo = BBWebViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F65EE4DC2058F2F8007BF711 /* BBWebViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBWebViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F65EE4DF2058F2F8007BF711 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F65EE4E02058F2F9007BF711 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F65EE4E22058F2F9007BF711 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F65EE4E32058F2F9007BF711 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F65EE4E62058F2F9007BF711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F65EE4E82058F2F9007BF711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F65EE4EB2058F2F9007BF711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F65EE4ED2058F2F9007BF711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F65EE4EE2058F2F9007BF711 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F65EE4F42058F2F9007BF711 /* BBWebViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBWebViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F65EE4F82058F2F9007BF711 /* BBWebViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBWebViewControllerUITests.m; sourceTree = "<group>"; };
+		F65EE4FA2058F2F9007BF711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F65EE5042058F375007BF711 /* BBWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBWebViewController.h; sourceTree = "<group>"; };
+		F65EE5062058F375007BF711 /* YGWebToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGWebToolBar.h; sourceTree = "<group>"; };
+		F65EE5072058F375007BF711 /* YGWebToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGWebToolBar.m; sourceTree = "<group>"; };
+		F65EE5082058F375007BF711 /* YGWebView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YGWebView.bundle; sourceTree = "<group>"; };
+		F65EE5092058F375007BF711 /* BBWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBWebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F65EE4D92058F2F8007BF711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65EE4F12058F2F9007BF711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F65EE4D32058F2F8007BF711 = {
+			isa = PBXGroup;
+			children = (
+				F65EE4DE2058F2F8007BF711 /* BBWebViewController */,
+				F65EE4F72058F2F9007BF711 /* BBWebViewControllerUITests */,
+				F65EE4DD2058F2F8007BF711 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F65EE4DD2058F2F8007BF711 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F65EE4DC2058F2F8007BF711 /* BBWebViewController.app */,
+				F65EE4F42058F2F9007BF711 /* BBWebViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F65EE4DE2058F2F8007BF711 /* BBWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F65EE50D2058F37B007BF711 /* Lib */,
+				F65EE4DF2058F2F8007BF711 /* AppDelegate.h */,
+				F65EE4E02058F2F9007BF711 /* AppDelegate.m */,
+				F65EE4E22058F2F9007BF711 /* ViewController.h */,
+				F65EE4E32058F2F9007BF711 /* ViewController.m */,
+				F65EE4E52058F2F9007BF711 /* Main.storyboard */,
+				F65EE4E82058F2F9007BF711 /* Assets.xcassets */,
+				F65EE4EA2058F2F9007BF711 /* LaunchScreen.storyboard */,
+				F65EE4ED2058F2F9007BF711 /* Info.plist */,
+				F65EE4EE2058F2F9007BF711 /* main.m */,
+			);
+			path = BBWebViewController;
+			sourceTree = "<group>";
+		};
+		F65EE4F72058F2F9007BF711 /* BBWebViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F65EE4F82058F2F9007BF711 /* BBWebViewControllerUITests.m */,
+				F65EE4FA2058F2F9007BF711 /* Info.plist */,
+			);
+			path = BBWebViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		F65EE5032058F375007BF711 /* BBWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F65EE5052058F375007BF711 /* YGWebToolBar */,
+				F65EE5042058F375007BF711 /* BBWebViewController.h */,
+				F65EE5092058F375007BF711 /* BBWebViewController.m */,
+			);
+			path = BBWebViewController;
+			sourceTree = "<group>";
+		};
+		F65EE5052058F375007BF711 /* YGWebToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				F65EE5062058F375007BF711 /* YGWebToolBar.h */,
+				F65EE5072058F375007BF711 /* YGWebToolBar.m */,
+				F65EE5082058F375007BF711 /* YGWebView.bundle */,
+			);
+			path = YGWebToolBar;
+			sourceTree = "<group>";
+		};
+		F65EE50D2058F37B007BF711 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				F65EE5032058F375007BF711 /* BBWebViewController */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F65EE4DB2058F2F8007BF711 /* BBWebViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F65EE4FD2058F2F9007BF711 /* Build configuration list for PBXNativeTarget "BBWebViewController" */;
+			buildPhases = (
+				F65EE4D82058F2F8007BF711 /* Sources */,
+				F65EE4D92058F2F8007BF711 /* Frameworks */,
+				F65EE4DA2058F2F8007BF711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBWebViewController;
+			productName = BBWebViewController;
+			productReference = F65EE4DC2058F2F8007BF711 /* BBWebViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F65EE4F32058F2F9007BF711 /* BBWebViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F65EE5002058F2F9007BF711 /* Build configuration list for PBXNativeTarget "BBWebViewControllerUITests" */;
+			buildPhases = (
+				F65EE4F02058F2F9007BF711 /* Sources */,
+				F65EE4F12058F2F9007BF711 /* Frameworks */,
+				F65EE4F22058F2F9007BF711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F65EE4F62058F2F9007BF711 /* PBXTargetDependency */,
+			);
+			name = BBWebViewControllerUITests;
+			productName = BBWebViewControllerUITests;
+			productReference = F65EE4F42058F2F9007BF711 /* BBWebViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F65EE4D42058F2F8007BF711 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = calmakon;
+				TargetAttributes = {
+					F65EE4DB2058F2F8007BF711 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F65EE4F32058F2F9007BF711 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F65EE4DB2058F2F8007BF711;
+					};
+				};
+			};
+			buildConfigurationList = F65EE4D72058F2F8007BF711 /* Build configuration list for PBXProject "BBWebViewController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F65EE4D32058F2F8007BF711;
+			productRefGroup = F65EE4DD2058F2F8007BF711 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F65EE4DB2058F2F8007BF711 /* BBWebViewController */,
+				F65EE4F32058F2F9007BF711 /* BBWebViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F65EE4DA2058F2F8007BF711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65EE4EC2058F2F9007BF711 /* LaunchScreen.storyboard in Resources */,
+				F65EE50B2058F375007BF711 /* YGWebView.bundle in Resources */,
+				F65EE4E92058F2F9007BF711 /* Assets.xcassets in Resources */,
+				F65EE4E72058F2F9007BF711 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65EE4F22058F2F9007BF711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F65EE4D82058F2F8007BF711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65EE4E42058F2F9007BF711 /* ViewController.m in Sources */,
+				F65EE4EF2058F2F9007BF711 /* main.m in Sources */,
+				F65EE50A2058F375007BF711 /* YGWebToolBar.m in Sources */,
+				F65EE4E12058F2F9007BF711 /* AppDelegate.m in Sources */,
+				F65EE50C2058F375007BF711 /* BBWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65EE4F02058F2F9007BF711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65EE4F92058F2F9007BF711 /* BBWebViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F65EE4F62058F2F9007BF711 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F65EE4DB2058F2F8007BF711 /* BBWebViewController */;
+			targetProxy = F65EE4F52058F2F9007BF711 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F65EE4E52058F2F9007BF711 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F65EE4E62058F2F9007BF711 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F65EE4EA2058F2F9007BF711 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F65EE4EB2058F2F9007BF711 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F65EE4FB2058F2F9007BF711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F65EE4FC2058F2F9007BF711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F65EE4FE2058F2F9007BF711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BBWebViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huyagang.BBWebViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F65EE4FF2058F2F9007BF711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BBWebViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huyagang.BBWebViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F65EE5012058F2F9007BF711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BBWebViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huyagang.BBWebViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BBWebViewController;
+			};
+			name = Debug;
+		};
+		F65EE5022058F2F9007BF711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BBWebViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huyagang.BBWebViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BBWebViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F65EE4D72058F2F8007BF711 /* Build configuration list for PBXProject "BBWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65EE4FB2058F2F9007BF711 /* Debug */,
+				F65EE4FC2058F2F9007BF711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F65EE4FD2058F2F9007BF711 /* Build configuration list for PBXNativeTarget "BBWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65EE4FE2058F2F9007BF711 /* Debug */,
+				F65EE4FF2058F2F9007BF711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F65EE5002058F2F9007BF711 /* Build configuration list for PBXNativeTarget "BBWebViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65EE5012058F2F9007BF711 /* Debug */,
+				F65EE5022058F2F9007BF711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F65EE4D42058F2F8007BF711 /* Project object */;
+}
